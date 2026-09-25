@@ -1,4 +1,3 @@
-cat << 'EOF' > /opt/zimbra/backup/backup_account_zimbra_v2.sh
 #!/bin/bash
 
 # Pastikan script dijalankan sebagai user zimbra
@@ -132,4 +131,3 @@ echo "=================================================="
 echo " Backup V2 Selesai!"
 echo " File Hasil Backup: $TARGET_BASE/${FOLDER_NAME}.tar.gz"
 echo "=================================================="
-EOF
